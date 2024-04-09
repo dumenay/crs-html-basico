@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <form action="" style="border: 1px solid black;">
+    <table>
+        <tr>
+            <td>
+                <label for="nome">Insira seu nome</label>
+               <input placeholder="Nome" type="text" required name="nome" id="nome">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Insira seu E-mail</label>
+                <input placeholder="Email@email.com" type="email" required name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="senha">Insira sua Senha</label>
+                <input placeholder="Senha" type="password" required name="senha" id="senha">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cpf">Insira seu CPF</label>
+                <input placeholder="123.456.789-10" type="text" required name="cṕf" id="cpf">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nasc">Data de Nascimento</label>
+                <input type="date" required name="nasc" id="nasc" lang="pt-br">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h4>Deseja receber notificações?</h4>
+                <label for="snotif">Sim</label>
+                <input type="radio" name="notif" id="snotif">
+                <label for="nnotif">Não</label>
+                <input type="radio" name="notif" id="nnotif">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Enviar">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

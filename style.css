@@ -1,0 +1,33 @@
+span, p {
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.formatacao-oi {
+    color: red;
+}
+.formatacao-cursive {
+    font-family: cursive;
+}
+.ext {
+    background-color: red;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.int {
+    background-color: green;
+}
+
+
+.nomes {
+  font-size: 25px;
+  text-align: center;
+}
+.valor {
+  font-size: 20px;
+  text-align: center;
+}
+.imagem{
+  width: 50px;
+}
